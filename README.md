@@ -13,9 +13,27 @@ GenCyberCoin has been successfully deployed at Tennessee Tech's GenCyber summer 
 
 GenCyberCoin reinforces the objectives that the GenCyber program has established. It complements the existing GenCyber camp activities and facilitates building curiosity and passion to pursue cybersecurity and to solve challenges in this field.
 
-A 12-minute summary video on GenCyberCoin platform is available here:
+# Sample Lesson Plan
+
+A sample lesson plan can be found [here](instructions/GenCyberCoin_Sample_Lesson_Plan.pdf).
+
+# Video Description
+
+A 12-minute summary video on GenCyberCoin platform for instructors/admins is available here:
 
 [![Watch the video](instructions/img-readme/homepage.png)](https://arcadia.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=4a2d137e-e80f-4dd3-bc5e-aa1e00f7b4b7&v=1)
+
+A 2-minute summary video on GenCyberCoin platform for students is available here:
+
+[![Watch the video](instructions/img-readme/students.png)](https://arcadia.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=af6dc731-ca20-40e0-b386-aa6b002af746)
+
+# Deploy to Heroku
+- This is a free and the easiest way to deploy GenCyberCoin as your own web app.
+- Please ensure that you have created an account on [Heroku.com](https://www.heroku.com/) and you are logged in there.<br/>
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+- When you click on this "Deploy to Heroku" button, enter the name of the app you want your GenCyberCoin to be deployed to (must be unique across all Heroku dynos), and then click on "Deploy app". Your GenCyberCoin will be available within a minute at `https://your_app's_name.herokuapp.com`
+- Next, you can go straight to [creating administrators](#creating-administrators) section and set that up on your newly deployed app.
+- Learn about [Heroku's Free Dyno Hours](https://devcenter.heroku.com/articles/free-dyno-hours) and [Heroku's Dyno Comparison](https://mikecoutermarsh.com/load-testing-heroku-1x-2x-px-dyno/) (the free dyno uses Heroku 1x Dyno and it is enough to simulteneously have up to ~200 users)
 
 # Bug Bounty
 
@@ -55,11 +73,11 @@ username: `gcsuperuser`<br>
 password: `gcsuperuser`<br><br>
 **EXTREMELY IMPORTANT**: As soon as you log in, change your password immediately on the `Account` page.<br>
 
-After generating codes for your GenCyber Team (administrators of your GenCyber summer camp) on the `Code generator` page under `Admin` menu, your GenCyber Team can register their accounts on the front page of GenCyberCoin, using those codes.<br>
+After generating codes for your GenCyber Team (administrators of your GenCyber summer camp or just yourself in a class you are teaching) on the `Code generator` page under `Admin` menu, your GenCyber Team can register their accounts on the front page of GenCyberCoin, using those codes.<br>
 
-**IMPORTANT**: when you register the accounts, make sure that your security answers are not easy to guess based on the questions because there is a `Forgot your password` option that allows you to enter the account by guessing correctly two security questions out of three which means that your K12 students could potentially try to social engineer one of your GenCyber Team members to get into their accounts, just saying.<br>
+**IMPORTANT**: when you register the accounts, make sure that your security answers are not easy to guess based on the questions because there is a `Forgot your password` option that allows you to enter the account by guessing correctly two security questions out of three which means that your K12 students could potentially try to social engineer one of your GenCyber Team members to get into their accounts... just saying, not that it ever happened ;)<br>
 
-Additional `admin panel` exists for the `gcsuperuser` that you can access by navigating to `localhost/gcsuperuser/` (both slashes are important to type). However, use this `admin panel` at your own risk because it access directly the data that relates to everything on the website.
+An additional `admin panel` exists for the `gcsuperuser` that you can access by navigating to `localhost/gcsuperuser/` (if you are running on your PC/laptop) or `http://your_app_url/gcsuperuser/` (if you deployed the app somewhere else) (both slashes are important to type). However, use that `admin panel` at your own risk because it directly accesses the data from the database that stores everything about all users on the website.
 
 # Questions/bugs/suggestions?
 
@@ -72,4 +90,16 @@ Contact Vitaly Ford fordv@arcadia.edu with one of the following subject lines, d
 
 We thank [NSA/NSF GenCyber program](https://www.gen-cyber.com/ "NSA/NSF GenCyber Program") for funding the implementation of this project.
 
-We also thank Andy Malinsky, a Computer Science and Mathematics student at Arcadia University, for bug hunting, testing the project's code, and helping with writing these instructions.
+We also thank Anathae Wallace, Andy Malinsky, Ivan Zhang, and Muhammad Moiz Saeed, who were Computer Science and Mathematics students at Arcadia University, for bug hunting, testing the project's code, adding new features, and helping with writing these instructions.
+
+# Hall of Fame
+
+A list of students from different schools who contributed to identifying security flaws on this platform (alphabetic order) and sharing those with us.
+
+1. Devkumar Banerjee
+1. Diego Mannikarote
+1. Kevin Zhang
+1. Leo Abanov
+1. Logan Warren
+1. Pierce Mannikarote
+1. Ryan Glendenning
