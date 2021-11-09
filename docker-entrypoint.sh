@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Starting docker-entrypoint.sh"
 set -euo pipefail
 
 WORKERS=${WORKERS:-1}
