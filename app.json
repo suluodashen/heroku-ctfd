@@ -1,7 +1,7 @@
 {
-    "name": "GenCyberCoin",
-    "description": "Project sponsored by NSA/NSF GenCyber program to promote cybersecurity education",
-    "repository": "https://github.com/vitalyford/gencybercoin",
+    "name": "CTFd",
+    "description": "Heroku deploy of CTFd",
+    "repository": "https://github.com/kengraf/heroku-ctfd",
     "addons": [
         "heroku-postgresql"
     ],
@@ -10,5 +10,5 @@
     },
     "logo": "https://raw.githubusercontent.com/vitalyford/gencybercoin/master/cryptocoin/user/static/user/img/gencybercoin.png",
     "stack": "container",
-    "keywords": ["gencybercoin", "cybersecurity", "education", "django", "nginx", "docker"]
+    "keywords": ["ctfd", "cybersecurity", "education", "django", "nginx", "docker"]
 }
