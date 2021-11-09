@@ -18,9 +18,6 @@ if [ ! -f .ctfd_secret_key ] && [ -z "$SECRET_KEY" ]; then
     fi
 fi
 
-# Ensures that the database is available
-python ping.py
-
 # Initialize database
 python manage.py db upgrade
 
