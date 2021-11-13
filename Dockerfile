@@ -37,4 +37,4 @@ RUN chmod +x /opt/CTFd/docker-entrypoint.sh \
 
 USER 1001
 EXPOSE 80
-ENTRYPOINT ["/opt/CTFd/docker-entrypoint.sh"]
+# ENTRYPOINT ["/opt/CTFd/docker-entrypoint.sh"]
